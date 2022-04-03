@@ -1,22 +1,25 @@
+- keyword: 打招呼
+  category: ——
+  alias:
+    - '你好'
+  content: 'hello world，我是胖胖'
+  urls:
+
 - keyword: 新手起步
   category: ——
   alias:
     - 新手攻略
     - 新人攻略
-  content: ''
+  content: '新人攻略见下方链接 ↓ (#^.^#) 持续完善中'
   urls:
-    - 'https://www.baidu.com'
-    - 'https://www.4399.com'
+    - 'https://docs.qq.com/doc/DVXd2dGxSZnRnUENp'
 
 - keyword: 经验加成
   category: ——
   alias:
-    - ''
-    - ''
-  content: ''
+    - '经验加成'
+  content: '1、天气经验加成\n2、经验卷轴\n3、师徒经验加成\n4、二期助战卡经验加成\n5、情侣经验加成\n6、剧团经验加成\n7、经验鞋经验加成'
   urls:
-    - 'https://www.baidu.com'
-    - 'https://www.4399.com'
 
 - keyword: 钓鱼玩法
   category: ——
@@ -24,14 +27,28 @@
     - 如何钓鱼
     - 怎么钓鱼
     - 钓鱼
-  content: 本服特色玩法，具体介绍见下方链接
+    - 河神任务
+  content: '本服特色玩法，具体介绍见下方链接 ↓'
   urls:
     - 'https://docs.qq.com/doc/DVUlTR2tuemJQemx0'
-    - 'https://www.4399.com'
 
-- keyword: 打招呼
+- keyword: 伙伴卡
   category: ——
   alias:
-    - '你好'
-  content: '你好啊，我是胖胖'
+    - 一期伙伴卡
+    - 二期伙伴卡
+    - 助战卡
+    - 伙伴卡
+  content: '伙伴卡详情信息见下方链接 ↓'
   urls:
+    - 'https://docs.qq.com/doc/DRUhBTEhaRkFDc3hx'
+
+- keyword: 问题反馈
+  category: ——
+  alias:
+    - 问题反馈
+    - 我有问题
+    - 有问题
+  content: '大家如果在游戏中，遇到了线上 bug，欢迎通过下方链接进行反馈哦 ↓'
+  urls:
+    - 'https://docs.qq.com/sheet/DVWlja0Z6a1l0d1RJ'

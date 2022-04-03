@@ -1,0 +1,13 @@
+qq_proxy_host: http://127.0.0.1
+qq_proxy_port: 5700
+
+server_host: 127.0.0.1
+server_port: 5701
+
+concerned_group_ids:
+  - 818206909
+
+myself_qq_id: 847236448
+
+notice_sync_group_ids:
+  - 818206909

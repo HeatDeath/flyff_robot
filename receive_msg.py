@@ -1,13 +1,17 @@
 import requests
 from flask import Flask, request
 
-from load_yaml_conf import keyword_2_instance_dict, alias_2_keyword_dict
+from load_yaml_conf import keyword_2_instance_dict, alias_2_keyword_dict, server_port, server_host, qq_proxy_port, \
+    qq_proxy_host, base_conf
+from robot_utils import is_self_support_query_message
 
 app = Flask(__name__)
 
-white_group_id_set = [818206909]
-# myself_qq_id = '1438560198'
-myself_qq_id = '847236448'
+concerned_group_ids = base_conf['concerned_group_ids']
+notice_sync_group_ids = base_conf['notice_sync_group_ids']
+
+qq_proxy_url = qq_proxy_host + ':' + str(qq_proxy_port)
+myself_qq_id = str(base_conf['myself_qq_id'])
 
 
 @app.route('/', methods=["POST"])
@@ -15,24 +19,8 @@ def post_data():
     data = request.get_json()
     print(data)
 
-    if 'message_type' not in data:
-        print("not target message")
-        return 'continue'
-
-    if data["message_type"] != "group":
-        print("not group message")
-        return "continue"
-
-    if data['group_id'] not in white_group_id_set:
-        print("not target group")
-        return 'continue'
-
-    if 'CQ:at' not in data['message']:
-        print("not at me")
-        return 'continue'
-
-    if myself_qq_id not in data['message']:
-        print("not at me")
+    if not is_self_support_query_message(data):
+        print("not is_self_support_query_message")
         return 'continue'
 
     self_id = data['self_id']
@@ -40,6 +28,7 @@ def post_data():
     message_id = data['message_id']
     message = data['message']
     raw_message = data['raw_message']
+    group_id = data['group_id']
 
     message = message.split(' ')[1]
     print("message after split, message=" + message)
@@ -55,17 +44,20 @@ def post_data():
     final_url = ""
     if answer_conf.urls is not None and len(answer_conf.urls) > 0:
         for url in answer_conf.urls:
-            final_url = final_url + url + ","
+            final_url = final_url + url + "\n"
 
-    answer_message = answer_conf.content + "\n" + final_url
+    if len(final_url) != 0:
+        answer_message = answer_conf.content + "\n" + final_url
+    else:
+        answer_message = answer_conf.content
 
     payload = {
-        'group_id': 818206909,
+        'group_id': group_id,
         'message': answer_message,
         'auto_escape': True
     }
 
-    requests.post("http://127.0.0.1:5700/send_group_msg", payload)
+    requests.post(qq_proxy_url + "/send_group_msg", payload)
 
     return 'ok'
 
@@ -73,9 +65,20 @@ def post_data():
 @app.route('/sync_game_notice', methods=["POST"])
 def sync_game_notice():
     data = request.get_json()
-    print(data)
+    at_total_members = data['at_total_members']
+    message = data['message']
+
+    for group_id in notice_sync_group_ids:
+        payload = {
+            'group_id': group_id,
+            'message': '【游戏公告同步】' + message,
+            'auto_escape': True
+        }
+
+        requests.post(qq_proxy_url + "/send_group_msg", payload)
+
+    return 'ok'
 
 
 if __name__ == '__main__':
-    # 此处的 host和 port对应上面 yml文件的设置
-    app.run(host='127.0.0.1', port=5701)  # 保证和我们在配置里填的一致
+    app.run(host=server_host, port=server_port)
