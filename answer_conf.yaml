@@ -1,0 +1,37 @@
+- keyword: 新手起步
+  category: ——
+  alias:
+    - 新手攻略
+    - 新人攻略
+  content: ''
+  urls:
+    - 'https://www.baidu.com'
+    - 'https://www.4399.com'
+
+- keyword: 经验加成
+  category: ——
+  alias:
+    - ''
+    - ''
+  content: ''
+  urls:
+    - 'https://www.baidu.com'
+    - 'https://www.4399.com'
+
+- keyword: 钓鱼玩法
+  category: ——
+  alias:
+    - 如何钓鱼
+    - 怎么钓鱼
+    - 钓鱼
+  content: 本服特色玩法，具体介绍见下方链接
+  urls:
+    - 'https://docs.qq.com/doc/DVUlTR2tuemJQemx0'
+    - 'https://www.4399.com'
+
+- keyword: 打招呼
+  category: ——
+  alias:
+    - '你好'
+  content: '你好啊，我是胖胖'
+  urls:
