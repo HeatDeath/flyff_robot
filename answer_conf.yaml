@@ -2,7 +2,9 @@
   category: ——
   alias:
     - '你好'
-  content: 'hello world，我是胖胖'
+    - 'hello world'
+    - '自我介绍'
+  content: 'hello world，我是彭彭；我是群服飞飞的自助问答机器人，目前还在测试中（知识库建设中，欢迎大家一起共同完善：））'
   urls:
 
 - keyword: 新手起步
@@ -18,7 +20,7 @@
   category: ——
   alias:
     - '经验加成'
-  content: '1、天气经验加成\n2、经验卷轴\n3、师徒经验加成\n4、二期助战卡经验加成\n5、情侣经验加成\n6、剧团经验加成\n7、经验鞋经验加成'
+  content: '1、天气经验加成；2、经验卷轴；3、师徒经验加成；4、二期助战卡经验加成；5、情侣经验加成；6、剧团经验加成；7、经验鞋经验加成'
   urls:
 
 - keyword: 钓鱼玩法
@@ -52,3 +54,16 @@
   content: '大家如果在游戏中，遇到了线上 bug，欢迎通过下方链接进行反馈哦 ↓'
   urls:
     - 'https://docs.qq.com/sheet/DVWlja0Z6a1l0d1RJ'
+
+- keyword: 副本介绍
+  category: ——
+  alias:
+    - 副本
+    - 海勒
+    - 吸血
+    - 路查卡
+    - 路基卡
+    - 古代
+  content: '本服中各个副本的详细介绍见下方文档 ↓ 欢迎一起共同完善哦 (#^.^#)'
+  urls:
+    - 'https://docs.qq.com/doc/DVXh3S05yekRLYk1p'
