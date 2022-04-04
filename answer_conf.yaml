@@ -4,6 +4,7 @@
     - '你好'
     - 'hello world'
     - '自我介绍'
+    - '打招呼'
   content: 'hello world，我是彭彭；我是群服飞飞的自助问答机器人，目前还在测试中（知识库建设中，欢迎大家一起共同完善：））'
   urls:
 
@@ -12,6 +13,7 @@
   alias:
     - 新手攻略
     - 新人攻略
+    - 新手起步
   content: '新人攻略见下方链接 ↓ (#^.^#) 持续完善中'
   urls:
     - 'https://docs.qq.com/doc/DVXd2dGxSZnRnUENp'
@@ -30,6 +32,7 @@
     - 怎么钓鱼
     - 钓鱼
     - 河神任务
+    - 钓鱼玩法
   content: '本服特色玩法，具体介绍见下方链接 ↓'
   urls:
     - 'https://docs.qq.com/doc/DVUlTR2tuemJQemx0'
@@ -64,6 +67,7 @@
     - 路查卡
     - 路基卡
     - 古代
+    - 副本介绍
   content: '本服中各个副本的详细介绍见下方文档 ↓ 欢迎一起共同完善哦 (#^.^#)'
   urls:
     - 'https://docs.qq.com/doc/DVXh3S05yekRLYk1p'

@@ -6,7 +6,7 @@ server_port: 5701
 
 concerned_group_ids:
   - 818206909
-  - 332732679
+#  - 332732679
 
 myself_qq_id: 847236448
 

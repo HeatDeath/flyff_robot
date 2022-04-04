@@ -33,6 +33,15 @@ def post_data():
     message = message.split(' ')[1]
     print("message after split, message=" + message)
 
+    if message == '帮助':
+        payload = {
+            'group_id': group_id,
+            'message': str([i + ';' for i in keyword_2_instance_dict.keys()]),
+            'auto_escape': True
+        }
+        requests.post(qq_proxy_url + "/send_group_msg", payload)
+        return 'ok'
+
     if message not in alias_2_keyword_dict.keys():
         print("message=" + message)
         print("not find alias in alias_2_keyword_dict")
