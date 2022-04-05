@@ -103,7 +103,7 @@
     - 采矿
     - 吸矿
     - 补品
-  content: '一转、二转、转M、转H任务详细介绍见下方文档 ↓'
+  content: '采矿、补品详细介绍见下方文档 ↓'
   urls:
     - 'https://docs.qq.com/doc/DVWFqVllmWHllV25z'
 
@@ -150,7 +150,7 @@
   category: ——
   alias:
     - 更多资料
-  content: '更多资料见下方台服飞飞官网及 FlyffWiki ↓'
+  content: '更多资料见下方台服飞飞官网及 Flyff-Wiki ↓'
   urls:
     - 'https://flyffwiki.digeam.com/%e9%81%8a%e6%88%b2%e4%bb%8b%e9%9d%a2/'
     - 'https://flyff-wiki.gpotato.com.br/wiki/Maps'
