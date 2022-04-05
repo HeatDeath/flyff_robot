@@ -36,7 +36,7 @@ def post_data():
     if message == '帮助':
         payload = {
             'group_id': group_id,
-            'message': '目前支持查询的关键词如下' + str(keyword_2_instance_dict.keys()),
+            'message': '目前支持查询的关键词如下' + str([i for i in keyword_2_instance_dict.keys()]),
             'auto_escape': True
         }
         requests.post(qq_proxy_url + "/send_group_msg", payload)
