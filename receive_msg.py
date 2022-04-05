@@ -3,7 +3,7 @@ from flask import Flask, request
 
 from load_yaml_conf import keyword_2_instance_dict, alias_2_keyword_dict, server_port, server_host, qq_proxy_port, \
     qq_proxy_host, base_conf
-from robot_utils import is_self_support_query_message
+from robot_utils import is_self_support_query_message, is_new_member_notice_message
 
 app = Flask(__name__)
 
@@ -23,7 +23,7 @@ def post_data():
         handle_self_query_event(data)
         return 'ok'
 
-    if is_self_support_query_message(data):
+    if is_new_member_notice_message(data):
         handle_new_member_notice_event(data)
         return 'ok'
 
