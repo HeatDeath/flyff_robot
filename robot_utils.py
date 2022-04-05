@@ -28,3 +28,27 @@ def is_self_support_query_message(data):
         return False
 
     return True
+
+
+def is_new_member_notice_message(data):
+    if 'post_type' not in data:
+        print("not target message")
+        return False
+
+    if data["post_type"] != "notice":
+        print("not notice message")
+        return False
+
+    if 'notice_type' not in data:
+        print("not target message")
+        return False
+
+    if data["notice_type"] != "group_increase":
+        print("not group_increase message")
+        return False
+
+    if data['group_id'] not in concerned_group_ids:
+        print("not target group")
+        return False
+
+    return True

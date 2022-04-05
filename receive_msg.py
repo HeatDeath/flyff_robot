@@ -19,10 +19,25 @@ def post_data():
     data = request.get_json()
     print(data)
 
-    if not is_self_support_query_message(data):
-        print("not is_self_support_query_message")
-        return 'continue'
+    if is_self_support_query_message(data):
+        handle_self_query_event(data)
+        return 'ok'
 
+    if is_self_support_query_message(data):
+        handle_new_member_notice_event()
+        return 'ok'
+
+    return 'ok'
+
+
+def handle_new_member_notice_event(data):
+    self_id = data['self_id']
+    group_id = data['group_id']
+
+    do_answer_question(group_id, '欢迎新人')
+
+
+def handle_self_query_event(data):
     self_id = data['self_id']
     user_id = data['user_id']
     message_id = data['message_id']
@@ -47,6 +62,10 @@ def post_data():
         print("not find alias in alias_2_keyword_dict")
         return 'continue'
 
+    do_answer_question(group_id, message)
+
+
+def do_answer_question(group_id, message):
     keyword = alias_2_keyword_dict[message]
     answer_conf = keyword_2_instance_dict[keyword]
 
