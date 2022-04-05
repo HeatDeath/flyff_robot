@@ -24,7 +24,7 @@ def post_data():
         return 'ok'
 
     if is_self_support_query_message(data):
-        handle_new_member_notice_event()
+        handle_new_member_notice_event(data)
         return 'ok'
 
     return 'ok'
