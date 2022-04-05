@@ -5,7 +5,7 @@
     - 'hello world'
     - '自我介绍'
     - '打招呼'
-  content: 'hello world，我是彭彭；我是群服飞飞的自助问答机器人，目前还在测试中（知识库建设中，欢迎大家一起共同完善：））'
+  content: 'hello world，我是胖胖；我是群服飞飞的自助问答机器人，目前还在测试中（知识库建设中，欢迎大家一起共同完善：））'
   urls:
 
 - keyword: 新手起步
@@ -14,7 +14,11 @@
     - 新手攻略
     - 新人攻略
     - 新手起步
-  content: '新人攻略见下方链接 ↓ (#^.^#) 持续完善中'
+    - 职业特色
+    - 掉宝倍率
+    - 经验倍率
+    - 倍率
+  content: '新人攻略、职业特色见下方链接 ↓'
   urls:
     - 'https://docs.qq.com/doc/DVXd2dGxSZnRnUENp'
 
@@ -33,7 +37,9 @@
     - 钓鱼
     - 河神任务
     - 钓鱼玩法
-  content: '本服特色玩法，具体介绍见下方链接 ↓'
+    - 河神任务
+    - 钓鱼比赛
+  content: '钓鱼、河神任务、钓鱼比赛的具体介绍见下方链接 ↓'
   urls:
     - 'https://docs.qq.com/doc/DVUlTR2tuemJQemx0'
 
@@ -54,7 +60,7 @@
     - 问题反馈
     - 我有问题
     - 有问题
-  content: '大家如果在游戏中，遇到了线上 bug，欢迎通过下方链接进行反馈哦 ↓'
+  content: '大家如果在游戏中，遇到了线上 bug，欢迎通过下方链接进行反馈 ↓'
   urls:
     - 'https://docs.qq.com/sheet/DVWlja0Z6a1l0d1RJ'
 
@@ -63,11 +69,88 @@
   alias:
     - 副本
     - 海勒
+    - 海乐
     - 吸血
     - 路查卡
     - 路基卡
     - 古代
     - 副本介绍
-  content: '本服中各个副本的详细介绍见下方文档 ↓ 欢迎一起共同完善哦 (#^.^#)'
+    - 导师套
+    - 毕福
+    - 野生的毕福
+  content: '【路查卡武器、路基卡导师套、路基卡水晶、血腥装备、吸血武器、古代武器、灵魂首饰】掉落以及各个副本的详细介绍见下方文档 ↓'
   urls:
     - 'https://docs.qq.com/doc/DVXh3S05yekRLYk1p'
+
+- keyword: 转职任务
+  category: ——
+  alias:
+    - 转职
+    - 一转
+    - 二转
+    - 转M
+    - 转H
+    - master技能
+    - hero技能
+    - h技能
+  content: '一转、二转、转M、转H任务详细介绍见下方文档 ↓'
+  urls:
+    - 'https://docs.qq.com/doc/DVUl3ak5KQWVKbGJI'
+
+- keyword: 采矿
+  category: ——
+  alias:
+    - 采矿
+    - 吸矿
+    - 补品
+  content: '一转、二转、转M、转H任务详细介绍见下方文档 ↓'
+  urls:
+    - 'https://docs.qq.com/doc/DVWFqVllmWHllV25z'
+
+- keyword: 唤醒、精炼、强化、宝石镶嵌
+  category: ——
+  alias:
+    - 唤醒
+    - 精炼
+    - 穿洞
+    - 宝石镶嵌
+  content: '唤醒、精炼、强化、宝石镶嵌详细介绍见下方文档 ↓'
+  urls:
+    - 'https://docs.qq.com/doc/DVUx3dEhrU1NqZ01j'
+
+- keyword: 挖宝
+  category: ——
+  alias:
+    - 挖宝
+  content: '挖宝详细介绍见下方文档 ↓'
+  urls:
+    - 'https://docs.qq.com/doc/DVUtnY1ZrSVdZVEZD'
+
+- keyword: 召唤兽
+  category: ——
+  alias:
+    - 召唤兽
+    - 召唤兽数值
+    - 召唤兽饲养时间
+    - 召唤兽类型
+    - 召唤兽能力
+  content: '召唤兽相关的介绍见下方文档 ↓'
+  urls:
+    - 'https://docs.qq.com/doc/DVXBPdEZkYml6Y2ps'
+
+- keyword: 更新日志
+  category: ——
+  alias:
+    - 更新日志
+  content: '更新日志见下方文档 ↓'
+  urls:
+    - 'https://docs.qq.com/doc/DRUZCenFDRVdOblFH'
+
+- keyword: 更多资料
+  category: ——
+  alias:
+    - 更多资料
+  content: '更多资料见下方台服飞飞官网及 FlyffWiki ↓'
+  urls:
+    - 'https://flyffwiki.digeam.com/%e9%81%8a%e6%88%b2%e4%bb%8b%e9%9d%a2/'
+    - 'https://flyff-wiki.gpotato.com.br/wiki/Maps'
