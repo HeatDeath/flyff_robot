@@ -19,12 +19,12 @@ def post_data():
     data = request.get_json()
     print(data)
 
-    if is_self_support_query_message(data):
-        handle_self_query_event(data)
-        return 'ok'
-
     if is_new_member_notice_message(data):
         handle_new_member_notice_event(data)
+        return 'ok'
+
+    if is_self_support_query_message(data):
+        handle_self_query_event(data)
         return 'ok'
 
     return 'ok'
