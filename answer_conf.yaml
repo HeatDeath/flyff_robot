@@ -1,12 +1,12 @@
 - keyword: 打招呼
   category: ——
   alias:
-    - '你好'
-    - 'hello world'
-    - '自我介绍'
-    - '打招呼'
-    - '你是谁'
-  content: 'hello world，我是胖胖；我是群服飞飞的自助问答机器人，目前还在测试中（知识库建设中，欢迎大家一起共同完善：））'
+    - 你好
+    - hello world
+    - 自我介绍
+    - 打招呼
+    - 你是谁
+  content: hello world，我是胖胖；我是群服飞飞的自助问答机器人，目前还在测试中（知识库建设中，欢迎大家一起共同完善：））
   urls:
 
 - keyword: 新手起步
@@ -20,15 +20,15 @@
     - 经验倍率
     - 倍率
     - 欢迎新人
-  content: '欢迎新朋友，游戏下载地址见群文件【Client.rar】或者是【客户端相关 -》 Client.rar 文件】；游戏中的新手问题也可以来咨询我，输入【帮助】查看查询范围；新人攻略、职业特色、倍率见下方链接 ↓'
+  content: 欢迎新朋友，游戏下载地址见群文件【Client.rar】或者是【客户端相关 -》 Client.rar 文件】；游戏中的新手问题也可以来咨询我，输入【帮助】查看查询范围；新人攻略、职业特色、倍率见下方链接 ↓
   urls:
-    - 'https://docs.qq.com/doc/DVXd2dGxSZnRnUENp'
+    - https://docs.qq.com/doc/DVXd2dGxSZnRnUENp
 
 - keyword: 经验加成
   category: ——
   alias:
-    - '经验加成'
-  content: '1、异常天气；2、经验卷轴；3、师徒经验加成；4、二期助战卡（艾斯卡）经验加成；5、情侣经验加成；6、8人剧团经验加成；7、经验鞋经验加成'
+    - 经验加成
+  content: 1、异常天气；2、经验卷轴；3、师徒经验加成；4、二期助战卡（艾斯卡）经验加成；5、情侣经验加成；6、8人剧团经验加成；7、经验鞋经验加成
   urls:
 
 - keyword: 钓鱼玩法
@@ -41,9 +41,9 @@
     - 钓鱼玩法
     - 河神任务
     - 钓鱼比赛
-  content: '钓鱼、河神任务、钓鱼比赛的具体介绍见下方链接 ↓'
+  content: 钓鱼、河神任务、钓鱼比赛的具体介绍见下方链接 ↓
   urls:
-    - 'https://docs.qq.com/doc/DVUlTR2tuemJQemx0'
+    - https://docs.qq.com/doc/DVUlTR2tuemJQemx0
 
 - keyword: 伙伴卡
   category: ——
@@ -52,9 +52,9 @@
     - 二期伙伴卡
     - 助战卡
     - 伙伴卡
-  content: '伙伴卡详情信息见下方链接 ↓'
+  content: 伙伴卡详情信息见下方链接 ↓
   urls:
-    - 'https://docs.qq.com/doc/DRUhBTEhaRkFDc3hx'
+    - https://docs.qq.com/doc/DRUhBTEhaRkFDc3hx
 
 - keyword: 问题反馈
   category: ——
@@ -62,27 +62,32 @@
     - 问题反馈
     - 我有问题
     - 有问题
-  content: '大家如果在游戏中，遇到了线上 bug，欢迎通过下方链接进行反馈 ↓'
+  content: 大家如果在游戏中，遇到了线上 bug，欢迎通过下方链接进行反馈 ↓
   urls:
-    - 'https://docs.qq.com/sheet/DVWlja0Z6a1l0d1RJ'
+    - https://docs.qq.com/sheet/DVWlja0Z6a1l0d1RJ
 
 - keyword: 副本介绍
   category: ——
   alias:
     - 副本
+    - 副本介绍
+    - 毕福
+    - 野生毕福
     - 海勒
     - 海乐
     - 吸血
+    - 古代
+    - 导师套
+    - 血腥
     - 路查卡
     - 路基卡
-    - 古代
-    - 副本介绍
-    - 导师套
-    - 毕福
-    - 野生的毕福
-  content: '【路查卡武器、路基卡导师套、路基卡水晶、血腥装备、吸血武器、古代武器、灵魂首饰】掉落以及各个副本的详细介绍见下方文档 ↓'
+    - 灵魂首饰
+    - 导师套进阶
+    - 吸血武器升级
+    - 路查卡升级
+  content: 【路查卡武器、路基卡导师套、路基卡水晶、血腥装备、吸血武器、古代武器、灵魂首饰】掉落以及各个副本的详细介绍见下方文档 ↓
   urls:
-    - 'https://docs.qq.com/doc/DVXh3S05yekRLYk1p'
+    - https://docs.qq.com/doc/DVXh3S05yekRLYk1p
 
 - keyword: 转职任务
   category: ——
@@ -92,12 +97,14 @@
     - 二转
     - 转M
     - 转H
+    - 转H
+    - 转M
     - master技能
     - hero技能
     - h技能
-  content: '一转、二转、转M、转H任务详细介绍见下方文档 ↓'
+  content: 一转、二转、转M、转H任务详细介绍见下方文档 ↓
   urls:
-    - 'https://docs.qq.com/doc/DVUl3ak5KQWVKbGJI'
+    - https://docs.qq.com/doc/DVUl3ak5KQWVKbGJI
 
 - keyword: 采矿
   category: ——
@@ -105,28 +112,31 @@
     - 采矿
     - 吸矿
     - 补品
-  content: '采矿、补品详细介绍见下方文档 ↓'
+  content: 采矿、补品详细介绍见下方文档 ↓
   urls:
-    - 'https://docs.qq.com/doc/DVWFqVllmWHllV25z'
+    - https://docs.qq.com/doc/DVWFqVllmWHllV25z
 
-- keyword: 唤醒、精炼、强化、宝石镶嵌
+- keyword: 唤醒、穿洞、精炼、强化、宝石镶嵌
   category: ——
   alias:
     - 唤醒
     - 精炼
     - 穿洞
     - 宝石镶嵌
-  content: '唤醒、精炼、强化、宝石镶嵌详细介绍见下方文档 ↓'
+    - 穿洞概率
+    - 精炼概率
+    - 唤醒数值
+  content: 唤醒、穿洞、精炼、强化、宝石镶嵌及相关概率详细介绍见下方文档 ↓
   urls:
-    - 'https://docs.qq.com/doc/DVUx3dEhrU1NqZ01j'
+    - https://docs.qq.com/doc/DVUx3dEhrU1NqZ01j
 
 - keyword: 挖宝
   category: ——
   alias:
     - 挖宝
-  content: '挖宝详细介绍见下方文档 ↓'
+  content: 挖宝详细介绍见下方文档 ↓
   urls:
-    - 'https://docs.qq.com/doc/DVUtnY1ZrSVdZVEZD'
+    - https://docs.qq.com/doc/DVUtnY1ZrSVdZVEZD
 
 - keyword: 召唤兽
   category: ——
@@ -136,31 +146,50 @@
     - 召唤兽饲养时间
     - 召唤兽类型
     - 召唤兽能力
-  content: '召唤兽相关的介绍见下方文档 ↓'
+  content: 召唤兽相关介绍见下方文档 ↓
   urls:
-    - 'https://docs.qq.com/doc/DVXBPdEZkYml6Y2ps'
+    - https://docs.qq.com/doc/DVXBPdEZkYml6Y2ps
+
+- keyword: 双手武器合成
+  category: ——
+  alias:
+    - 双手武器合成
+    - 双手合成
+  content: 双手武器合成介绍见下方文档 ↓
+  urls:
+    - https://docs.qq.com/doc/DVUVRS2Rqd2JHS0pQ
+
+- keyword: 情侣功能
+  category: ——
+  alias:
+    - 情侣等级奖励
+    - 情侣功能
+    - 情侣
+  content: 情侣功能介绍见下方文档 ↓
+  urls:
+    - https://docs.qq.com/doc/DVWlKTXFOU1pYdW5M
 
 - keyword: 更新日志
   category: ——
   alias:
     - 更新日志
-  content: '更新日志见下方文档 ↓'
+  content: 更新日志见下方文档 ↓
   urls:
-    - 'https://docs.qq.com/doc/DRUZCenFDRVdOblFH'
+    - https://docs.qq.com/doc/DRUZCenFDRVdOblFH
 
 - keyword: 更多资料
   category: ——
   alias:
     - 更多资料
-  content: '更多资料见下方台服飞飞官网及 Flyff-Wiki ↓'
+  content: 更多资料见下方台服飞飞官网及 Flyff-Wiki ↓
   urls:
-    - 'https://flyffwiki.digeam.com/%e9%81%8a%e6%88%b2%e4%bb%8b%e9%9d%a2/'
-    - 'https://flyff-wiki.gpotato.com.br/wiki/Maps'
+    - https://flyffwiki.digeam.com/%e9%81%8a%e6%88%b2%e4%bb%8b%e9%9d%a2/
+    - https://flyff-wiki.gpotato.com.br/wiki/Maps
 
 - keyword: caster
   category: ——
   alias:
     - 卡斯特
     - caster
-  content: '没错，卡斯特是懒狗 ：）'
+  content: 没错，卡斯特是懒狗 ：）
   urls:
