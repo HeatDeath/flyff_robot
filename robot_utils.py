@@ -2,7 +2,8 @@ from random import choice
 
 import requests
 
-from load_yaml_conf import qq_proxy_port, qq_proxy_host, base_conf, alias_2_keyword_dict, keyword_2_instance_dict
+from load_yaml_conf import qq_proxy_port, qq_proxy_host, base_conf, alias_2_keyword_dict, \
+    keyword_2_instance_dict, keyword_2_contents_dict_for_easter_egg, alias_2_keyword_dict_for_easter_egg
 
 concerned_group_ids = base_conf['concerned_group_ids']
 notice_sync_group_ids = base_conf['notice_sync_group_ids']
@@ -98,17 +99,12 @@ def do_answer_question(group_id, message):
     return 'ok'
 
 
-easter_egg_keyword_list = ['caster', '卡斯特']
-easter_egg_answer_list = [
-    '没错，caster 是懒狗 ：）',
-    'caster 快去好好学习！',
-    'caster 今天有没有认真打游戏！',
-    'caster 快上线打副本！',
-    'caster 今天的每日任务做完了吗！',
-    '让我瞧瞧 caster 是不是又在偷懒！',
-    'caster 今天的作业写完了吗！',
-    'caster 赶紧练级转M转H了！'
-]
+# 发送彩蛋
+def do_send_easter_egg(group_id, message):
+    keyword = alias_2_keyword_dict_for_easter_egg[message]
+    content_list = keyword_2_contents_dict_for_easter_egg[keyword]
+    post_group_message(group_id, choice(content_list))
+    return 'ok'
 
 
 # 处理自助查询事件
@@ -128,6 +124,6 @@ def handle_self_query_event(data):
         do_answer_question(group_id, message)
         return 'continue'
 
-    if message in easter_egg_keyword_list:
-        post_group_message(group_id, choice(easter_egg_answer_list))
+    if message in keyword_2_contents_dict_for_easter_egg.keys():
+        do_send_easter_egg(group_id, message)
         return 'continue'

@@ -16,6 +16,9 @@ qq_proxy_port = ''
 
 base_conf = {}
 
+keyword_2_contents_dict_for_easter_egg = {}
+alias_2_keyword_dict_for_easter_egg = {}
+
 
 class AnswerConf:
     def __init__(self, keyword, category, alias, content, urls):
@@ -54,3 +57,16 @@ with open(yaml_path, 'r', encoding='utf-8') as f:
     print(qq_proxy_host + ':' + str(qq_proxy_port))
 
     base_conf = base_conf_dict
+
+yaml_path = os.path.join(cur_path, "easter_egg_conf.yml")
+with open(yaml_path, 'r', encoding='utf-8') as f:
+    config = f.read()
+    easter_egg_conf_list = yaml.load(config, Loader=yaml.FullLoader)
+
+    for easter_egg in easter_egg_conf_list:
+        keyword_2_contents_dict_for_easter_egg[easter_egg['keyword']] = easter_egg['content']
+        for alias in easter_egg['alias']:
+            alias_2_keyword_dict_for_easter_egg[alias] = easter_egg['keyword']
+
+    json_str = json.dumps(alias_2_keyword_dict_for_easter_egg, ensure_ascii=False)
+    print(json_str)
