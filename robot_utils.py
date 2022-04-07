@@ -124,6 +124,6 @@ def handle_self_query_event(data):
         do_answer_question(group_id, message)
         return 'continue'
 
-    if message in keyword_2_contents_dict_for_easter_egg.keys():
+    if message in alias_2_keyword_dict_for_easter_egg.keys():
         do_send_easter_egg(group_id, message)
         return 'continue'
