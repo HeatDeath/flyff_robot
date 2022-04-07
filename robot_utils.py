@@ -129,5 +129,5 @@ def handle_self_query_event(data):
         return 'continue'
 
     if message in easter_egg_keyword_list:
-        do_answer_question(group_id, choice(easter_egg_answer_list))
+        post_group_message(group_id, choice(easter_egg_answer_list))
         return 'continue'
