@@ -153,7 +153,7 @@ def do_send_summon_beast_time(group_id, origin_message):
     expect_remain_hour = expect_remain_minutes_total // 60
     expect_remain_minutes = expect_remain_minutes_total % 60
 
-    return_message = ('预计召唤兽剩余升级时间为：{} 分钟（即 {} 小时 {} 分钟）').format(expect_remain_minutes_total,
-                                                                  expect_remain_hour, expect_remain_minutes)
+    return_message = ('预计召唤兽提升至下一等级时间为：{} 分钟（即 {} 小时 {} 分钟）').format(expect_remain_minutes_total,
+                                                                     expect_remain_hour, expect_remain_minutes)
     post_group_message(group_id, return_message)
     return 'ok'
