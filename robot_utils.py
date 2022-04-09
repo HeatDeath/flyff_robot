@@ -132,6 +132,7 @@ def handle_self_query_event(data):
         do_send_summon_beast_time(group_id, origin_message)
         return 'ok'
 
+    post_group_message(group_id, '啊哦，这个问题胖胖还不知道哦。如果大家有谁知道的话，可以私聊告诉胖胖哦')
     return 'ok'
 
 
