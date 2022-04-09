@@ -171,6 +171,24 @@
   urls:
     - https://docs.qq.com/doc/DVWlKTXFOU1pYdW5M
 
+- keyword: 飞行器图鉴
+  category: ——
+  alias:
+    - 飞行器
+    - 飞行器图鉴
+  content: 飞行器图鉴见下方文档 ↓
+  urls:
+    - https://docs.qq.com/doc/DRWxYVUR5SUxSdXNC
+
+- keyword: 捡宠图鉴
+  category: ——
+  alias:
+    - 捡宠
+    - 捡宠图鉴
+  content: 飞行器图鉴见下方文档 ↓
+  urls:
+    - https://docs.qq.com/doc/DVWRDdGdvSkJKQ3Fw
+
 - keyword: 更新日志
   category: ——
   alias:

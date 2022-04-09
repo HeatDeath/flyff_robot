@@ -109,10 +109,10 @@ def do_send_easter_egg(group_id, message):
 
 # 处理自助查询事件
 def handle_self_query_event(data):
-    message = data['message']
+    origin_message = data['message']
     group_id = data['group_id']
 
-    message = message.split(' ')[1]
+    message = origin_message.split(' ')[1]
     print("message after split, message=" + message)
 
     if message == '帮助':
@@ -122,8 +122,37 @@ def handle_self_query_event(data):
 
     if message in alias_2_keyword_dict.keys():
         do_answer_question(group_id, message)
-        return 'continue'
+        return 'ok'
 
     if message in alias_2_keyword_dict_for_easter_egg.keys():
         do_send_easter_egg(group_id, message)
-        return 'continue'
+        return 'ok'
+
+    if message == '召唤兽计算器':
+        do_send_summon_beast_time(group_id, origin_message)
+        return 'ok'
+
+    return 'ok'
+
+
+# 计算召唤兽剩余升级时间
+def do_send_summon_beast_time(group_id, origin_message):
+    beast_level = origin_message.split(' ')[2]
+    current_exp = origin_message.split(' ')[3]
+
+    beast_time_dict = {
+        'd': 7 * 60 + 40,
+        'c': 15 * 60 + 12,
+        'b': 30 * 60 + 24,
+        'a': 60 * 60 + 53,
+    }
+
+    expect_remain_minutes_total = beast_time_dict[beast_level] * (1.0 - float(current_exp))
+
+    expect_remain_hour = expect_remain_minutes_total // 60
+    expect_remain_minutes = expect_remain_minutes_total % 60
+
+    return_message = ('预计召唤兽剩余升级时间为：{} 分钟（即 {} 小时 {} 分钟）').format(expect_remain_minutes_total,
+                                                                  expect_remain_hour, expect_remain_minutes)
+    post_group_message(group_id, return_message)
+    return 'ok'
