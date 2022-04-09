@@ -148,7 +148,7 @@ def do_send_summon_beast_time(group_id, origin_message):
         'a': 60 * 60 + 53,
     }
 
-    expect_remain_minutes_total = beast_time_dict[beast_level] * (1.0 - float(current_exp))
+    expect_remain_minutes_total = int((beast_time_dict[beast_level] * (100.0 - float(current_exp))) / 100.0)
 
     expect_remain_hour = expect_remain_minutes_total // 60
     expect_remain_minutes = expect_remain_minutes_total % 60
