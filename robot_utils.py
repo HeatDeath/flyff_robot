@@ -138,7 +138,7 @@ def handle_self_query_event(data):
 
 # 计算召唤兽剩余升级时间
 def do_send_summon_beast_time(group_id, origin_message):
-    beast_level = origin_message.split(' ')[2]
+    beast_level = origin_message.split(' ')[2].lower()
     current_exp = origin_message.split(' ')[3]
 
     beast_time_dict = {
