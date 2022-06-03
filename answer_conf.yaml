@@ -56,7 +56,9 @@
     - 钓鱼比赛
     - 鱼竿介绍
     - 钓鱼任务
-  content: 钓鱼、河神任务、钓鱼比赛的具体介绍见下方链接 ↓
+    - 鱼竿兑换
+    - 鱼竿制作
+  content: 钓鱼、河神任务、钓鱼比赛、鱼竿兑换的具体介绍见下方链接 ↓
   urls:
     - https://docs.qq.com/doc/DVUlTR2tuemJQemx0
 
@@ -222,6 +224,20 @@
   content: 捡宠图鉴见下方文档 ↓
   urls:
     - https://docs.qq.com/doc/DVWRDdGdvSkJKQ3Fw
+
+- keyword: 采集制作介绍
+  category: ——
+  alias:
+    - 采集
+    - 制作
+    - 采集介绍
+    - 制作介绍
+    - 采集制作介绍
+    - 采集分布
+    - 制作配方
+  content: 采集、制作介绍；采集分布；制作配方见下方文档 ↓
+  urls:
+    - https://docs.qq.com/doc/DVWd0RFVCeWNwS1VG
 
 - keyword: 更新日志
   category: ——
