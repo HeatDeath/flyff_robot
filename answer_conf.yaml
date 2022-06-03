@@ -24,12 +24,25 @@
   urls:
     - https://docs.qq.com/doc/DVXd2dGxSZnRnUENp
 
+- keyword: 新手礼物
+  category: ——
+  alias:
+    - 新手礼品
+    - 新手礼物
+    - 新人奖励
+    - 新手奖励
+    - 新人礼物
+  content: 新玩家助力升级送好礼，详细内容见下方链接 ↓
+  urls:
+    - https://docs.qq.com/sheet/DVWpselltb2VrQ0dC
+
 - keyword: 经验加成
   category: ——
   alias:
     - 经验加成
-  content: 1、异常天气；2、经验卷轴；3、师徒经验加成；4、二期助战卡（艾斯卡）经验加成；5、情侣经验加成；6、8人剧团经验加成；7、经验鞋经验加成
+  content: 1、异常天气；2、经验卷轴；3、师徒经验加成；4、二期助战卡（艾斯卡）经验加成；5、情侣经验加成；6、8人剧团经验加成；7、经验鞋经验加成等等
   urls:
+    - https://docs.qq.com/doc/DVVZZZW1rT0RVa29V
 
 - keyword: 钓鱼玩法
   category: ——
@@ -87,7 +100,10 @@
     - 导师套进阶
     - 吸血武器升级
     - 路查卡升级
-  content: 【路查卡武器、路基卡导师套、路基卡水晶、血腥装备、吸血武器、古代武器、灵魂首饰】掉落以及各个副本的详细介绍见下方文档 ↓
+    - 被污染的矿场
+    - 矿场
+    - 森林
+  content: 【路查卡武器、路基卡导师套、路基卡水晶、血腥装备、吸血武器、古代武器、灵魂首饰、森林装备】掉落以及各个副本的详细介绍见下方文档 ↓
   urls:
     - https://docs.qq.com/doc/DVXh3S05yekRLYk1p
 
@@ -107,6 +123,24 @@
   content: 一转、二转、转M、转H任务详细介绍见下方文档 ↓
   urls:
     - https://docs.qq.com/doc/DVUl3ak5KQWVKbGJI
+
+- keyword: 三转任务
+  category: ——
+  alias:
+    - 三转
+    - 三转任务
+    - 三转攻略
+  content: 三转任务详细介绍见下方文档 ↓
+  urls:
+    - https://docs.qq.com/sheet/DRU52cVREWlJxUnl2
+
+- keyword: 魔法石
+  category: ——
+  alias:
+    - 魔法石
+  content: 产出途径为：1、怪物掉落2、世界Boss礼盒，魔法石详细介绍见下方文档 ↓
+  urls:
+    - https://docs.qq.com/doc/DVUtnY1ZrSVdZVEZD
 
 - keyword: 采矿
   category: ——
