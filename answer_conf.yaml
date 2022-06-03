@@ -225,6 +225,15 @@
   urls:
     - https://docs.qq.com/doc/DVWRDdGdvSkJKQ3Fw
 
+- keyword: 师徒系统
+  category: ——
+  alias:
+    - 师徒
+    - 师徒系统
+  content: 师徒系统介绍见下方文档 ↓
+  urls:
+    - https://docs.qq.com/doc/DVURxaW5SUEpZVVZv
+
 - keyword: 采集制作介绍
   category: ——
   alias:
