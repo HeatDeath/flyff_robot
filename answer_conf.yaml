@@ -234,6 +234,17 @@
   urls:
     - https://docs.qq.com/doc/DVURxaW5SUEpZVVZv
 
+- keyword: 赞助
+  category: ——
+  alias:
+    - 友情支持
+    - 赞助
+    - 充值
+    - 月卡
+  content: 群服赞助说明 ↓
+  urls:
+    - https://docs.qq.com/doc/DVXNqZWlFcmRydkJU
+
 - keyword: 采集制作介绍
   category: ——
   alias:
