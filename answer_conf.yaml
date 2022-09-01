@@ -20,7 +20,7 @@
     - 经验倍率
     - 倍率
     - 欢迎新人
-  content: 欢迎新朋友，游戏下载地址见群文件【Client.rar】或者是【客户端相关 -》 Client.rar 文件】；游戏中的新手问题也可以来咨询我，输入【帮助】查看查询范围；新人攻略、职业特色、倍率见下方链接 ↓
+  content: 欢迎新朋友，游戏下载地址见群文件【客户端RAR版 -》 Client v22.1AnotherWorld.rar 文件】；游戏中的新手问题也可以来咨询我，输入【帮助】查看查询范围；新人攻略、职业特色、倍率见下方链接 ↓
   urls:
     - https://docs.qq.com/doc/DVXd2dGxSZnRnUENp
 
@@ -233,6 +233,14 @@
   content: 师徒系统介绍见下方文档 ↓
   urls:
     - https://docs.qq.com/doc/DVURxaW5SUEpZVVZv
+
+- keyword: 赤羽
+  category: ——
+  alias:
+    - 赤羽
+  content: 赤羽收集见下方文档，收录中，欢迎补充 ↓
+  urls:
+    - https://docs.qq.com/sheet/DRWFrbHljaXJ4bFNs
 
 - keyword: 赞助
   category: ——
