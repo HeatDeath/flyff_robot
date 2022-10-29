@@ -90,7 +90,8 @@ def do_answer_question(group_id, message):
             final_url = final_url + url + "\n"
 
     if len(final_url) != 0:
-        answer_message = answer_conf.content + '(文档可能更新不及时，如有疑问可在群内咨询热心网友们)' + "\n" + final_url
+        alias_show = '\n'.join(answer_conf.alias)
+        answer_message = answer_conf.content + '\n(文档可能更新不及时，如有疑问可在群内咨询热心网友们)\n' + final_url + '\n文档包含以下内容\n' + alias_show
     else:
         answer_message = answer_conf.content
 
