@@ -2,7 +2,7 @@
   category: ——
   alias:
     - 你好
-    - hello world
+    - helloworld
     - 自我介绍
     - 打招呼
     - 你是谁
@@ -159,9 +159,10 @@
   urls:
     - https://docs.qq.com/doc/DVWFqVllmWHllV25z
 
-- keyword: 唤醒、穿洞、精炼、强化、宝石镶嵌
+- keyword: 唤醒、穿洞、精炼、强化、宝石镶嵌、双手合成、巴路那打造（Baruna）
   category: ——
   alias:
+    - 武器装备打造
     - 唤醒
     - 精炼
     - 穿洞
@@ -169,7 +170,10 @@
     - 穿洞概率
     - 精炼概率
     - 唤醒数值
-  content: 唤醒、穿洞、精炼、强化、宝石镶嵌及相关概率详细介绍见下方文档 ↓
+    - 双手合成
+    - 双手武器合成
+    - 巴路那
+  content: 唤醒、穿洞、精炼、强化、宝石镶嵌、双手合成及相关概率详细介绍见下方文档 ↓
   urls:
     - https://docs.qq.com/doc/DVUx3dEhrU1NqZ01j
 
@@ -193,14 +197,14 @@
   urls:
     - https://docs.qq.com/doc/DVXBPdEZkYml6Y2ps
 
-- keyword: 双手合成
-  category: ——
-  alias:
-    - 双手武器合成
-    - 双手合成
-  content: 双手武器合成介绍见下方文档 ↓
-  urls:
-    - https://docs.qq.com/doc/DVUVRS2Rqd2JHS0pQ
+#- keyword: 双手合成
+#  category: ——
+#  alias:
+#    - 双手武器合成
+#    - 双手合成
+#  content: 双手武器合成介绍见下方文档 ↓
+#  urls:
+#    - https://docs.qq.com/doc/DVUVRS2Rqd2JHS0pQ
 
 - keyword: 情侣功能
   category: ——
