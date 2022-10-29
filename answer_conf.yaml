@@ -20,7 +20,7 @@
     - 经验倍率
     - 倍率
     - 欢迎新人
-  content: 欢迎新朋友，游戏下载地址见群文件【客户端RAR版 -》 Client v22.1AnotherWorld.rar 文件】；游戏中的新手问题也可以来咨询我，输入【帮助】查看查询范围；新人攻略、职业特色、倍率见下方链接 ↓
+  content: 欢迎新朋友，游戏下载地址见群文件【客户端RAR版 -》 Client v22.1AnotherWorld.rar 文件】；游戏中的新手问题也可以来咨询我，输入【帮助】查看查询范围；新人攻略、职业特色、倍率见下方链接；新人可以在群里或者游戏里找大佬领鸡蛋哦 ↓
   urls:
     - https://docs.qq.com/doc/DVXd2dGxSZnRnUENp
 
@@ -40,7 +40,7 @@
   category: ——
   alias:
     - 经验加成
-  content: 1、异常天气；2、经验卷轴；3、师徒经验加成；4、二期助战卡（艾斯卡）经验加成；5、情侣经验加成；6、8人剧团经验加成；7、经验鞋经验加成等等
+  content: 2、经验卷轴；3、师徒经验加成；4、二期助战卡（艾斯卡）经验加成；5、情侣经验加成；6、8人剧团经验加成；7、经验鞋经验加成等等
   urls:
     - https://docs.qq.com/doc/DVVZZZW1rT0RVa29V
 
@@ -67,6 +67,7 @@
   alias:
     - 一期伙伴卡
     - 二期伙伴卡
+    - 三期伙伴卡
     - 助战卡
     - 伙伴卡
   content: 伙伴卡详情信息见下方链接 ↓
@@ -101,11 +102,17 @@
     - 灵魂首饰
     - 导师套进阶
     - 吸血武器升级
+    - 古代武器
     - 路查卡升级
     - 被污染的矿场
     - 矿场
     - 森林
-  content: 【路查卡武器、路基卡导师套、路基卡水晶、血腥装备、吸血武器、古代武器、灵魂首饰、森林装备】掉落以及各个副本的详细介绍见下方文档 ↓
+    - 贝西
+    - 卡尔卡斯
+    - 被遗忘的失落之城
+    - 失落之城
+    - 隐秘的角落
+  content: 各个副本的详细介绍掉落地图、装备进阶等资料见下方文档 ↓
   urls:
     - https://docs.qq.com/doc/DVXh3S05yekRLYk1p
 
@@ -115,8 +122,7 @@
     - 转职
     - 一转
     - 二转
-    - 转M
-    - 转H
+    - 三转
     - 转H
     - 转M
     - master技能
@@ -126,15 +132,14 @@
   urls:
     - https://docs.qq.com/doc/DVUl3ak5KQWVKbGJI
 
-- keyword: 三转任务
-  category: ——
-  alias:
-    - 三转
-    - 三转任务
-    - 三转攻略
-  content: 三转任务详细介绍见下方文档 ↓
-  urls:
-    - https://docs.qq.com/doc/DVUZUclpPdGFlUG5S
+#- keyword: 三转任务
+#  category: ——
+#  alias:
+#    - 三转任务
+#    - 三转攻略
+#  content: 三转任务详细介绍见下方文档 ↓
+#  urls:
+#    - https://docs.qq.com/doc/DVUZUclpPdGFlUG5S
 
 - keyword: 魔法石
   category: ——
@@ -188,7 +193,7 @@
   urls:
     - https://docs.qq.com/doc/DVXBPdEZkYml6Y2ps
 
-- keyword: 双手武器合成
+- keyword: 双手合成
   category: ——
   alias:
     - 双手武器合成
@@ -253,7 +258,7 @@
   urls:
     - https://docs.qq.com/doc/DVXNqZWlFcmRydkJU
 
-- keyword: 采集制作介绍
+- keyword: 采集制作
   category: ——
   alias:
     - 采集

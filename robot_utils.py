@@ -90,7 +90,7 @@ def do_answer_question(group_id, message):
             final_url = final_url + url + "\n"
 
     if len(final_url) != 0:
-        answer_message = answer_conf.content + "\n" + final_url
+        answer_message = answer_conf.content + '(文档可能更新不及时，如有疑问可在群内咨询热心网友们)' + "\n" + final_url
     else:
         answer_message = answer_conf.content
 
@@ -115,15 +115,19 @@ def handle_self_query_event(data):
     message = origin_message.split(' ')[1]
     print("message after split, message=" + message)
 
-    if message == '帮助':
-        answer_message = '目前支持查询的关键词如下' + str([i for i in keyword_2_instance_dict.keys()])
+    # 目录查询
+    if message == '帮助' or message == '目录' or message == '关键字':
+        keyword_show =  '\n'.join(keyword_2_instance_dict.keys())
+        answer_message = '目前支持查询的关键词如下：\n' + keyword_show
         post_group_message(group_id, answer_message)
         return 'ok'
 
+    # 文档查询
     if message in alias_2_keyword_dict.keys():
         do_answer_question(group_id, message)
         return 'ok'
 
+    # 彩蛋
     if message in alias_2_keyword_dict_for_easter_egg.keys():
         do_send_easter_egg(group_id, message)
         return 'ok'
